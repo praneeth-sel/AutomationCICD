@@ -7,7 +7,7 @@ Feature: Error validation
   Scenario Outline: Title of your scenario outline
     Given I Landed on the Ecommerce Page
     And Logged with username <name> and password <Password>
-    Then "Incorrect email or password" message is displayed 
+    Then "Incorrect email or password." message is displayed 
 
   Examples: 
       | name                      | Password   |
